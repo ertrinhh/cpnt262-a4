@@ -1,20 +1,19 @@
-## CPNT 262-a3
+## CPNT 262-a4
 
 # Erica Trinh
 
 - Github Links
   - [GitHub Repo](https://github.com/ertrinhh/cpnt262-a4)
-  - [Heroku Page](https://congee-gallery.herokuapp.com/)
+  - [Heroku Page](https://json-congee-gallery.herokuapp.com)
 
-## Assignment 3: Deployed Static Express Website
+## Assignment 4: JSON gallery endpoint with fetch
 
-Used my image gallery and deployed on Heroku, also made 404 page by using a picture
+I really couldn't have done it without Vitaly LOL
 
 ## Honorable Mentions
 
-Cry Club - Ellie, Kyle, Karen
-
-- Thx tony for ur help with Heroku
+1. Vitaly 4 president, working overtime to help the friends
+2. Cry Club - Ellie, Kyle, Karen
 
 ## Attributions
 

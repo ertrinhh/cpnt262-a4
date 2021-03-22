@@ -1,11 +1,11 @@
-// initiate new project, import express and dotenv
+// initiate new project, import dependencies
 const path = require("path");
 const express = require("express");
 const app = express();
 require("dotenv").config();
 const index = require("./routes");
 
-//?????????
+//middleware
 app.use(express.static(path.join(__dirname, "public")));
 app.set("view engine", "ejs");
 
@@ -14,7 +14,6 @@ app.use("/", (req, res, next) => {
   next();
 });
 
-//routes
 app.use("/", index);
 
 //create 404 page

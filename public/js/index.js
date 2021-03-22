@@ -1,5 +1,6 @@
 "use strict";
 
+//fetch api
 fetch("/api/v0/gallery")
   .then(function (response) {
     if (!response.ok) {
