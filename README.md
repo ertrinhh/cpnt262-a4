@@ -3,7 +3,7 @@
 # Erica Trinh
 
 - Github Links
-  - [GitHub Repo](https://github.com/ertrinhh/cpnt262-a3)
+  - [GitHub Repo](https://github.com/ertrinhh/cpnt262-a4)
   - [Heroku Page](https://congee-gallery.herokuapp.com/)
 
 ## Assignment 3: Deployed Static Express Website

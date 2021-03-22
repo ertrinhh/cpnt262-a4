@@ -2,12 +2,12 @@
 const path = require("path");
 const express = require("express");
 const app = express();
-app.set("view engine", "ejs");
 require("dotenv").config();
 const index = require("./routes");
 
-//use project in public folder
+//midwareeee
 app.use(express.static(path.join(__dirname, "public")));
+app.set("view engine", "ejs");
 
 //routes
 app.use("/", index);

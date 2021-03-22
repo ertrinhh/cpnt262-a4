@@ -1,3 +1,31 @@
+/*nav bar stuff */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 30px 10%;
+}
+.nav-links ul {
+  list-style: none;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-links li {
+  padding: 5px 20px;
+  margin: 5px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: grey;
+  transition: all 0.5s ease 0s;
+}
+.nav-links a:hover {
+  color: rgb(89, 95, 218);
+}
+
 /* all this CSS was basically copied from my gallery assignment */
 h1,
 h3 {
@@ -69,4 +97,57 @@ figure:hover figcaption {
 .error {
   height: 100vh;
   width: 100vw;
+}
+
+/* styling for register page */
+.register {
+  max-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-me h2 {
+  font-size: 2em;
+  padding: 2%;
+}
+.form-section {
+  background-color: lightskyblue;
+  padding: 2%;
+  border-radius: 10px;
+  min-width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.form-action {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.form-action input,
+textarea {
+  height: 30px;
+  width: 100%;
+  font-size: 20px;
+}
+.form-action textarea {
+  height: 80px;
+}
+button {
+  padding: 10px 20px;
+  background-color: rgba(185, 146, 109, 1);
+  color: black;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.5s ease 0s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgba(185, 146, 109, 0.5);
+  color: white;
+}
+button[type="submit"]:hover {
+  color: black;
 }
