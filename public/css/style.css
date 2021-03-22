@@ -27,10 +27,8 @@ nav {
 }
 
 /* all this CSS was basically copied from my gallery assignment */
-h1,
-h3 {
+* {
   text-align: center;
-  margin-top: 30px;
   font-family: "Cabin", sans-serif;
 }
 
@@ -99,7 +97,8 @@ figure:hover figcaption {
   width: 100vw;
 }
 
-/* styling for register page */
+/* styling for register page
+I took most of this from my 260 a4 hero assignment */
 .register {
   max-height: 70vh;
   display: flex;
@@ -107,7 +106,7 @@ figure:hover figcaption {
   justify-content: center;
   align-items: center;
 }
-.contact-me h2 {
+.register h2 {
   font-size: 2em;
   padding: 2%;
 }
@@ -136,6 +135,7 @@ textarea {
 }
 button {
   padding: 10px 20px;
+  margin-top: 30px;
   background-color: rgba(185, 146, 109, 1);
   color: black;
   font-size: 1.2rem;

@@ -1,6 +1,6 @@
 "use strict";
 
-fetch("api/v0/gallery")
+fetch("/api/v0/gallery")
   .then(function (response) {
     if (!response.ok) {
       throw new Error("This is an error");
@@ -8,6 +8,7 @@ fetch("api/v0/gallery")
     return response.json();
   })
   .then(function (data) {
+    const pictures = data;
     //code from a3
     // select gallery, assign as const
     const gallery = document.querySelector(".gallery");
@@ -18,7 +19,7 @@ fetch("api/v0/gallery")
     //loop through each image and string together the html with object keys
     pictures.forEach(function (image) {
       output += `<figure class="gallery-item">
-  <img src="./public/images/${image.path}.jpg" alt="${image.title}" style="max-width: ${image.width}px; max-height: ${image.height}px;" />
+  <img src="/images/${image.path}.jpg" alt="${image.title}" style="max-width: ${image.width}px; max-height: ${image.height}px;" />
   <figcaption>${image.description}</figcaption>
   </figure>`;
 

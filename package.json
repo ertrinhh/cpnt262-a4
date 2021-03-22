@@ -1,25 +1,20 @@
 {
   "name": "cpnt262-a4",
   "version": "1.0.0",
-  "description": "- Github Links\r   - [GitHub Repo](https://github.com/ertrinhh/cpnt262-a3)\r   - [Heroku Page](https://congee-gallery.herokuapp.com/)",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ertrinhh/cpnt262-a4.git"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "erica trinh",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ertrinhh/cpnt262-a4/issues"
-  },
-  "homepage": "https://github.com/ertrinhh/cpnt262-a4#readme",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "dayjs": "^1.10.4",
     "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
     "express": "^4.17.1"
   }
 }
